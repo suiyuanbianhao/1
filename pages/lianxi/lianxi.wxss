@@ -1,0 +1,26 @@
+/**index.wxss**/  
+.swiper-tab{  
+  width: 100%;  
+  border-bottom: 2rpx solid #777777;  
+  text-align: center;  
+  line-height: 80rpx;
+}  
+.swiper-tab-list{  
+  display: inline-block;
+  font-size: 30rpx;    
+  width: 25%;  
+  color: #777777;  
+}  
+.on{ 
+  color: black;  
+  border-bottom: 5rpx solid red;
+}  
+.swiper-box{ 
+  display: block; 
+  height: 100%; 
+  width: 100%; 
+  overflow: hidden; 
+}  
+.swiper-box view{  
+    text-align: center;  
+}  

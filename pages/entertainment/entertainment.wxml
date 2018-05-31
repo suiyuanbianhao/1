@@ -1,0 +1,76 @@
+<view class="page_row" bindtap="suo">
+  <view class="search">
+    <view class="df search_arr">
+      <icon class="searchicon" size="15" type="search"></icon>
+      <input class="" disabled placeholder="搜索" value="{{searchValue}}"></input>
+    </view>
+  </view>
+</view>
+<image src="http://p0.so.qhimgs1.com/bdr/200_200_/t01bd95f768871b9b4a.jpg" style="height:300rpx;width:100%"></image>
+
+    <view class="swiper-tab">  
+    <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">校园附近</view>  
+    <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">武汉美食</view>  
+    <view class="swiper-tab-list {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="swichNav">游玩推荐</view>  
+    <view class="swiper-tab-list {{currentTab==3 ? 'on' : ''}}" data-current="3" bindtap="swichNav">风景地区</view>
+</view>  
+  
+<swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight - 31}}px" bindchange="bindChange">  
+
+    <!-- 校园附近 -->    
+    <swiper-item>
+      <view class="mass" wx:for="{{data}}" wx:key="item" currentTab="0"> 
+          <view class="mass-details">
+            <view class="title" style="text-align:center">
+            <navigator url="/pages/xiaoyuanfujin/xiaoyuanfujin"><text>{{item.title}}</text></navigator>
+            <image src="{{item.url_address}}" style="height:300rpx;width:100%"></image>
+            </view>
+            <text class="line"></text>
+          </view>
+      </view>
+    </swiper-item>
+
+    <!-- 武汉美食 -->  
+    <swiper-item>  
+      <view class="mass" wx:for="{{data}}" wx:key="item" currentTab="1"> 
+          <view class="mass-details">
+            <view class="title" style="text-align:center">
+            <navigator url="/pages/wuhanmeishi/wuhanmeishi"><text>{{item.title}}</text></navigator>
+            <image src="{{item.url_address}}" style="height:300rpx;width:100%"></image>
+            </view>
+            <text class="line"></text>
+          </view>
+      </view>
+    </swiper-item>  
+
+    <!-- 游玩推荐 -->  
+    <swiper-item>  
+      <view class="mass" wx:for="{{data}}" wx:key="item" currentTab="2"> 
+          <view class="mass-details">
+            <view class="title" style="text-align:center">
+            <text>{{item.title}}</text>
+            <image src="{{item.url_address}}" style="height:300rpx;width:100%"></image>
+            </view>
+            <text class="line"></text>
+          </view>
+      </view>
+    </swiper-item>  
+
+    <!-- 风景地区 -->
+    <swiper-item>  
+      <view class="mass" wx:for="{{data}}" wx:key="item" currentTab="3"> 
+          <view class="mass-details">
+            <view class="title" style="text-align:center">
+            <text>{{item.title}}</text>
+            <image src="{{item.url_address}}" style="height:300rpx;width:100%"></image>
+            </view>
+            <text class="line"></text>
+          </view>
+      </view>  
+    </swiper-item>  
+</swiper>  
+
+
+
+    
+    

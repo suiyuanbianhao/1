@@ -1,17 +1,17 @@
 <!--index.wxml-->
-<view class='bg' style="background-image:url('');">
+<view class='bg' style="background-image:url('http://www.hubei.gov.cn/2015change/2015sq/sq/xxx/zybwgx/201507/W020150709592902549769.jpg');">
 <view class='index'>
 <view class='index-item'>
-  <image src="/images/1.jpg" style='width:550rpx;height:200rpx'></image>
+  <navigator url="/pages/introduction/introduction"><image src="/images/1.jpg" style='width:550rpx;height:200rpx'></image></navigator>
 </view>
 <view class='index-item'>
-  <image src="/images/2.jpg" style='width:550rpx;height:200rpx'></image>
+  <navigator url="/pages/guide/guide"><image src="/images/2.jpg" style='width:550rpx;height:200rpx'></image></navigator>
 </view>
 <view class='index-item'>
-  <image src="/images/3.jpg" style='width:550rpx;height:200rpx'></image>
+  <navigator url="/pages/map/map"><image src="/images/3.jpg" style='width:550rpx;height:200rpx'></image></navigator>
 </view>
 <view class='index-item'>
-  <image src="/images/4.jpg" style='width:550rpx;height:200rpx'></image>
+  <navigator url="/pages/entertainment/entertainment"><image src="/images/4.jpg" style='width:550rpx;height:200rpx'></image></navigator>
 </view>
 </view>
 </view>

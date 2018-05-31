@@ -1,0 +1,18 @@
+<view class="navigator">
+  <image src="/images/xuexiaojieshao.png" style="width:100%"></image>
+  <text style="margin-left:20rpx;">校园咨讯</text>
+  <view class="line1"></view>
+
+ 
+  <view class="">
+  <view class="mass" wx:for="{{data}}" wx:key="">
+  <view class="mass-details">
+    <text style="text-align:center">{{item.title}}</text>
+    <text style="text-align:right">{{item.time}}</text>
+    <text style="text-align:right">{{item.author}}</text>
+    <text class="line2"></text>
+  </view>
+  </view>
+  </view>
+</view>
+  

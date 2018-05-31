@@ -1,0 +1,7 @@
+ <view class="mass" wx:for="{{data}}" wx:key=""> 
+  <view class="mass-details">
+    <text>{{item.title}}</text>
+    <text>{{item.content}}</text>
+    <text>{{url_address}}</text>
+  </view>
+</view>

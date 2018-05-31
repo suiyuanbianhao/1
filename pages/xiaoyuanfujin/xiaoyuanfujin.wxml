@@ -1,0 +1,7 @@
+<!--pages/xiaoyuanfujin/xiaoyuanfujin.wxml-->
+<view class="mass" wx:for="{{data}}" wx:key="item"> 
+  <view class="mass-details">
+    <text>{{item.content}}</text>
+    <text class="line"></text>
+  </view>
+</view>

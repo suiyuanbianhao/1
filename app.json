@@ -2,8 +2,15 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/navigator/navigator",
-    "pages/redirect/redirect"
+    "pages/introduction/introduction",
+    "pages/about/about",
+    "pages/guide/guide",
+    "pages/map/map",
+    "pages/entertainment/entertainment",
+    "pages/lianxi/lianxi",
+    "pages/search/search",
+    "pages/xiaoyuanfujin/xiaoyuanfujin",
+    "pages/wuhanmeishi/wuhanmeishi"
   ],
   "window": {
     "backgroundTextStyle": "light",

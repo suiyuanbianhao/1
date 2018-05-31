@@ -1,0 +1,8 @@
+<view class="about">
+  <image class="about-banner" src="/images/xuexiaojieshao.png"></image>
+  <text style="font-weight:bold;font-size:60rpx;">学校介绍</text>
+  <view>
+  <text>欢迎来到</text><navigator style="display:inline;" url='/pages/search/search' open-type="navigate" hover-class="changestyle">中南民族大学</navigator><text>图书馆</text>
+  </view>
+  <text>中南民族大学食堂</text>
+</view>
