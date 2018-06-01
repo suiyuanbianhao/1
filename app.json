@@ -9,8 +9,7 @@
     "pages/entertainment/entertainment",
     "pages/lianxi/lianxi",
     "pages/search/search",
-    "pages/xiaoyuanfujin/xiaoyuanfujin",
-    "pages/wuhanmeishi/wuhanmeishi"
+    "pages/xiaoyuanfujin/xiaoyuanfujin"
   ],
   "window": {
     "backgroundTextStyle": "light",
