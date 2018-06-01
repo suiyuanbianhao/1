@@ -1,3 +1,7 @@
 <!--pages/xiaoyuanfujin/xiaoyuanfujin.wxml-->
-<span style="font-size:24px;">
-<view style="text-align:center"> {{title}} </view></span>  
+<view class="mass" wx:for="{{data}}" wx:key="item"> 
+  <view class="mass-details">
+    <text>{{item.content}}</text>
+    <text class="line"></text>
+  </view>
+</view>

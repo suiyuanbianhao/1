@@ -22,18 +22,20 @@
       <view class="mass" wx:for="{{data}}" wx:key="item" currentTab="0"> 
           <view class="mass-details">
             <view class="title" style="text-align:center">
-            <navigator url="/pages/xiaoyuanfujin/xiaoyuanfujin?title={{item.content}}"><text>{{item.title}}</text></navigator>
+            <navigator url="/pages/xiaoyuanfujin/xiaoyuanfujin"><text>{{item.title}}</text></navigator>
             <image src="{{item.url_address}}" style="height:300rpx;width:100%"></image>
             </view>
             <text class="line"></text>
           </view>
       </view>
-    </swiper-item>  <!-- 武汉美食 -->  
+    </swiper-item>
+
+    <!-- 武汉美食 -->  
     <swiper-item>  
       <view class="mass" wx:for="{{data}}" wx:key="item" currentTab="1"> 
           <view class="mass-details">
             <view class="title" style="text-align:center">
-            <navigator url="/pages/xiaoyuanfujin/xiaoyuanfujin?title={{item.content}}"><text>{{item.title}}</text></navigator>
+            <navigator url="/pages/wuhanmeishi/wuhanmeishi"><text>{{item.title}}</text></navigator>
             <image src="{{item.url_address}}" style="height:300rpx;width:100%"></image>
             </view>
             <text class="line"></text>
@@ -46,7 +48,7 @@
       <view class="mass" wx:for="{{data}}" wx:key="item" currentTab="2"> 
           <view class="mass-details">
             <view class="title" style="text-align:center">
-            <navigator url="/pages/xiaoyuanfujin/xiaoyuanfujin?title={{item.content}}"><text>{{item.title}}</text></navigator>
+            <text>{{item.title}}</text>
             <image src="{{item.url_address}}" style="height:300rpx;width:100%"></image>
             </view>
             <text class="line"></text>
@@ -59,7 +61,7 @@
       <view class="mass" wx:for="{{data}}" wx:key="item" currentTab="3"> 
           <view class="mass-details">
             <view class="title" style="text-align:center">
-            <navigator url="/pages/xiaoyuanfujin/xiaoyuanfujin?title={{item.content}}"><text>{{item.title}}</text></navigator>
+            <text>{{item.title}}</text>
             <image src="{{item.url_address}}" style="height:300rpx;width:100%"></image>
             </view>
             <text class="line"></text>
@@ -67,8 +69,6 @@
       </view>  
     </swiper-item>  
 </swiper>  
-
-  
 
 
 
